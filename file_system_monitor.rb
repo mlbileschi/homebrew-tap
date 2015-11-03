@@ -6,6 +6,6 @@ class FileSystemMonitor < Formula
 
   def install
     system "gem", "install", "rb-fsevent", "--version", "0.9.4", "--install-dir", prefix
-    bin.install "file_system_monitor.rb"
+    bin.install "file_system_monitor"
   end
 end
